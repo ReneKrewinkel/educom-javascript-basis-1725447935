@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script>
+      let i = 0;
+      let total = 0;
+
+      function isEven() {
+        if (i % 2 == 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      while (i <= 100) {
+        if (isEven(i)) {
+          total = total + i;
+        }
+        i++;
+      }
+      console.log(`The total of even numbers in the loop is: ${total}`);
+    </script>
+  </head>
+</html>
